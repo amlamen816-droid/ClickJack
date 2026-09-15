@@ -22,3 +22,6 @@
 * تقييم دقيق لحالة الموقع (PROTECTED, PARTIALLY PROTECTED, POTENTIALLY VULNERABLE).
 * حساب نقاط أمنية (Score) من 100 وتحديد مستوى الخطر.
 * إصدار تقارير JSON منظمة وملفات HTML تعليمية آمنة.
+
+### 🔗 روابط المشروع
+* مستودع المشروع على GitHub: [ClickJack Repository](https://github.com/amlamen816-droid/ClickJack)
