@@ -1,0 +1,25 @@
+{
+  "tool": "ClickJack",
+  "version": "1.0.0",
+  "scan": {
+    "target": "https://0ade006b04f4aa9781376b8400870078.web-security-academy.net/",
+    "final_url": "https://0ade006b04f4aa9781376b8400870078.web-security-academy.net/",
+    "status_code": 200,
+    "headers": {
+      "content-type": "text/html; charset=utf-8",
+      "set-cookie": "session=c9ZAvqBlCCFlZoZub8bc1pxO9bX6PIiZ; Secure; HttpOnly; SameSite=None",
+      "connection": "close",
+      "content-length": "8445"
+    }
+  },
+  "assessment": {
+    "x_frame_options": "(missing)",
+    "content_security_policy": "(missing)",
+    "frame_ancestors": "(missing)",
+    "status": "POTENTIALLY VULNERABLE",
+    "risk": "MEDIUM/HIGH",
+    "score": 20,
+    "reason": "No effective anti-framing protection was detected in the response headers.",
+    "recommendation": "Consider an appropriate CSP frame-ancestors policy and/or X-Frame-Options."
+  }
+}
